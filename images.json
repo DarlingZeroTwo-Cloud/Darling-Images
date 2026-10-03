@@ -1,0 +1,119 @@
+{
+  "version": "1.0",
+  "updated": "2026-10-04",
+  "vms": [
+    {
+      "id": "win10-x86",
+      "name": "Windows 10 (32位)",
+      "arch": "x86",
+      "type": "qemu",
+      "size": "~4GB",
+      "download": "",
+      "note": "镜像较大，需手动下载"
+    },
+    {
+      "id": "win10-x64",
+      "name": "Windows 10 (64位)",
+      "arch": "x86_64",
+      "type": "qemu",
+      "size": "~6GB",
+      "download": "",
+      "note": "镜像较大，需手动下载"
+    },
+    {
+      "id": "win11-x64",
+      "name": "Windows 11 (64位)",
+      "arch": "x86_64",
+      "type": "qemu",
+      "size": "~8GB",
+      "download": "",
+      "note": "镜像较大，需手动下载"
+    },
+    {
+      "id": "win11-arm64",
+      "name": "Windows 11 (ARM64)",
+      "arch": "aarch64",
+      "type": "qemu",
+      "size": "~8GB",
+      "download": "",
+      "note": "镜像较大，需手动下载"
+    },
+    {
+      "id": "ubuntu2604-x64",
+      "name": "Ubuntu 26.04 (64位)",
+      "arch": "x86_64",
+      "type": "qemu",
+      "size": "~4GB",
+      "download": "",
+      "note": "镜像较大，需手动下载"
+    },
+    {
+      "id": "ubuntu2604-arm64",
+      "name": "Ubuntu 26.04 (ARM64)",
+      "arch": "aarch64",
+      "type": "qemu",
+      "size": "~4GB",
+      "download": "",
+      "note": "镜像较大，需手动下载"
+    },
+    {
+      "id": "ubuntu2404-x64",
+      "name": "Ubuntu 24.04 (64位)",
+      "arch": "x86_64",
+      "type": "qemu",
+      "size": "~3GB",
+      "download": "",
+      "note": "镜像较大，需手动下载"
+    }
+  ],
+  "containers": [
+    {
+      "id": "ubuntu2404-x64",
+      "name": "Ubuntu 24.04 (64位)",
+      "arch": "x86_64",
+      "type": "proot",
+      "size": "~150MB",
+      "download": "https://github.com/termux/proot-distro/releases/download/v4.17.0/ubuntu-x86_64-pd-v4.17.0.tar.xz"
+    },
+    {
+      "id": "ubuntu2404-arm64",
+      "name": "Ubuntu 24.04 (ARM64)",
+      "arch": "aarch64",
+      "type": "proot",
+      "size": "~150MB",
+      "download": "https://github.com/termux/proot-distro/releases/download/v4.17.0/ubuntu-aarch64-pd-v4.17.0.tar.xz"
+    },
+    {
+      "id": "alpine-x64",
+      "name": "Alpine Linux (64位)",
+      "arch": "x86_64",
+      "type": "proot",
+      "size": "~50MB",
+      "download": "https://github.com/termux/proot-distro/releases/download/v4.17.0/alpine-x86_64-pd-v4.17.0.tar.xz"
+    },
+    {
+      "id": "alpine-arm64",
+      "name": "Alpine Linux (ARM64)",
+      "arch": "aarch64",
+      "type": "proot",
+      "size": "~50MB",
+      "download": "https://github.com/termux/proot-distro/releases/download/v4.17.0/alpine-aarch64-pd-v4.17.0.tar.xz"
+    },
+    {
+      "id": "debian-x64",
+      "name": "Debian (64位)",
+      "arch": "x86_64",
+      "type": "proot",
+      "size": "~120MB",
+      "download": "https://github.com/termux/proot-distro/releases/download/v4.17.0/debian-x86_64-pd-v4.17.0.tar.xz"
+    },
+    {
+      "id": "debian-arm64",
+      "name": "Debian (ARM64)",
+      "arch": "aarch64",
+      "type": "proot",
+      "size": "~120MB",
+      "download": "https://github.com/termux/proot-distro/releases/download/v4.17.0/debian-aarch64-pd-v4.17.0.tar.xz"
+    }
+  ]
+}
